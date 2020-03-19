@@ -170,7 +170,7 @@ game_hash.each do |place, team|
     if attribute == :players
       data.each do |player|
         if player[:player_name] == name 
-          result = player.delete(:player_name)
+          player = player.delete(:player_name)
           return result
         end 
       end 
