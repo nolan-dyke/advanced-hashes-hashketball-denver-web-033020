@@ -143,7 +143,7 @@ end
 def team_names
   result = []
   game_hash.each do |place, team|
-    
+    result << team[:team_name]
   end 
   result
 end 
