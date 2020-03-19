@@ -124,7 +124,7 @@ def shoe_size(name)
       if attribute == :players
         data.each do |player|
           if player[:player_name] == name
-            return player[:points]
+            return player[:shoe]
           end 
         end 
       end 
